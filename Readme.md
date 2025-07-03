@@ -102,5 +102,5 @@ This setup integrates Locust load testing with Prometheus monitoring and Grafana
 ---
 
 ![Locust](images/Locust.png)
-![Prometheus](images/prometheus.png)
-![Grafana](images/grafana.png)
+![Prometheus](images/Prometheus.png)
+![Grafana](images/Grafana.png)
