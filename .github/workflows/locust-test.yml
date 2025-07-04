@@ -1,3 +1,4 @@
+#Example of pipeline for a Locust project
 name: Locust Load Test
 
 on:
