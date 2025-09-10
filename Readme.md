@@ -1,4 +1,16 @@
-#  Locust Load Testing Project
+<div align="center">
+
+# 🚀 Locust Load Testing Project
+
+![Locust](https://img.shields.io/badge/Locust-00CA4E?style=for-the-badge&logo=locust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+</div>
+
+## 📋 Overview
 
 This project uses [Locust](https://locust.io/) to perform automated load testing on an API or web application.
 

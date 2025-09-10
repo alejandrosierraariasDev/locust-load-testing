@@ -28,7 +28,8 @@ jobs:
 
     - name: Run Locust load test
       run: |
-        locust -f tests/locustfile.py --headless -u 10 -r 1 --run-time 1m --host http://localhost
+        # El host ya está definido en el locustfile, así que no es necesario especificarlo aquí.
+        locust -f tests/locustfile.py --headless -u 10 -r 1 --run-time 1m
 
     - name: Upload reports as artifact
       if: always()
