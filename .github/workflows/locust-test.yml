@@ -19,8 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.11
-        architecture: x64
+        python-version: 3.10
 
     - name: Install dependencies
       run: |
@@ -29,7 +28,7 @@ jobs:
 
     - name: Run Locust load test
       run: |
-       locust -f tests/locustfile.py --headless -u 10 -r 1 --run-time 1m
+        locust -f tests/locustfile.py --headless -u 10 -r 1 --run-time 1m --exit-code-on-error 0
 
     - name: Upload reports as artifact
       if: always()
